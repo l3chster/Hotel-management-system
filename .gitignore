@@ -1,0 +1,31 @@
+### Java/Maven Essentials ###
+target/
+*.log
+# Pozwalamy na Maven Wrapper, jeśli go używasz
+!.mvn/wrapper/maven-wrapper.jar
+
+### Specyficzne dla Twojego projektu ###
+javadoc/
+sonar-qube/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+bin/
+
+### VS Code ###
+.vscode/
+
+### Systemowe ###
+.DS_Store
+Thumbs.db
